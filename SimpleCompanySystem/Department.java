@@ -1,5 +1,5 @@
 // Göktuğ Sina Bekçioğulları
-// 150122039
+
 import java.time.format.SignStyle;
 import java.util.InputMismatchException;
 
