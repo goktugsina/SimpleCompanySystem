@@ -24,6 +24,7 @@ public class Test {
         while (scanner.hasNextLine()) {
             // Reads file line by line, then adding strings to the arraylist using split method
             String line = scanner.nextLine();
+            // Divide line into words
             String[] tempArray = line.split(" ");
             for (int i = 0; i < tempArray.length; i++) {
                 arrayListOfStrings.add(tempArray[i]);
